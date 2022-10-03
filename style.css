@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.spin {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.spin h1 { 
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1rem;
+    padding: 1rem;
+    color: crimson;
+    font-size: 5rem;
+    font-weight: 700;
+    border-radius: 1rem;
+}
